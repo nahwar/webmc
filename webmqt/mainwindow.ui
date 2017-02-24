@@ -98,14 +98,14 @@
    <widget class="QCheckBox" name="mutebox">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>190</y>
-      <width>51</width>
+      <width>151</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Mute</string>
+     <string>No audio</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
