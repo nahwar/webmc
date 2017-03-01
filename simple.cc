@@ -198,6 +198,7 @@ int main(int argc, char *argv[])
   	durationcheck->signal_toggled().connect( sigc::ptr_fun(durtoggled) );
   	gobutton->signal_clicked().connect( sigc::ptr_fun(dothething) );
 
+		pWindow->move(Gdk::screen_width() / 2 - 300, Gdk::screen_height() / 2 - 200);
     app->run(*pWindow);
   }
 
